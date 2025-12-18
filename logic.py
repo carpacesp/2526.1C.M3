@@ -190,4 +190,4 @@ def has_won(game: GameState) -> bool:
 
     matches = int(game.get("matches", 0))
     total_pairs = int(game.get("total_pairs", 0))
-    return matches >= total_pairs
+    
